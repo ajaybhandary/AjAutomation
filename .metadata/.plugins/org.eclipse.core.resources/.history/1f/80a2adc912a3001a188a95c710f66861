@@ -1,0 +1,12 @@
+package com.w2a.rough;
+
+import java.util.Properties;
+
+public class TestProperties {
+    public static void main(String[] args) {
+    	
+    	Properties config = new Properties();
+    	
+		
+	}
+}

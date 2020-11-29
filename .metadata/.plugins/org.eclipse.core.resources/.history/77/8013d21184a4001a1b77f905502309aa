@@ -1,0 +1,9 @@
+#Bank Manager Login test
+bmlBtn =div > div:last-child > .btn.btn-primary.btn-lg
+
+#Add customer test
+addCustBtn=button[ng-click='addCust()']
+firstname=
+lastname=
+postcode=
+addbtn

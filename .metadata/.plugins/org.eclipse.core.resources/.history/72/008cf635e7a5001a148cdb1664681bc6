@@ -1,0 +1,22 @@
+2020-06-04 07:57:11 DEBUG devpinoyLogger:54 - config file loaded !!!
+  2020-06-04 07:57:11 DEBUG devpinoyLogger:68 - OR file loaded !!!
+  2020-06-04 07:57:15 DEBUG devpinoyLogger:81 - Chrome launched !!!
+  2020-06-04 07:57:17 DEBUG devpinoyLogger:89 - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+  2020-06-04 07:57:19 DEBUG devpinoyLogger:13 - Inside Login Test
+  2020-06-04 07:57:23 DEBUG devpinoyLogger:17 - Login successfully executed
+  2020-06-04 07:57:23 DEBUG devpinoyLogger:16 -  addCustomer testcase entry !!!
+  2020-06-04 07:57:24 DEBUG devpinoyLogger:119 - test execution completed !!!
+  2020-06-04 08:10:35 DEBUG devpinoyLogger:54 - config file loaded !!!
+  2020-06-04 08:10:35 DEBUG devpinoyLogger:68 - OR file loaded !!!
+  2020-06-04 08:10:38 DEBUG devpinoyLogger:81 - Chrome launched !!!
+  2020-06-04 08:10:41 DEBUG devpinoyLogger:89 - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+  2020-06-04 08:10:43 DEBUG devpinoyLogger:13 - Inside Login Test
+  2020-06-04 08:10:47 DEBUG devpinoyLogger:17 - Login successfully executed
+  2020-06-04 08:10:47 DEBUG devpinoyLogger:16 -  addCustomer testcase entry !!!
+  2020-06-04 08:10:50 DEBUG devpinoyLogger:21 -  addCustomer testcase 1 !!!
+  2020-06-04 08:10:50 DEBUG devpinoyLogger:25 -  addCustomer testcase 2 !!!
+  2020-06-04 08:10:50 DEBUG devpinoyLogger:28 -  addCustomer testcase 3 !!!
+  2020-06-04 08:10:50 DEBUG devpinoyLogger:31 -  addCustomer testcase 4 !!!
+  2020-06-04 08:10:50 DEBUG devpinoyLogger:34 -  addCustomer Successful !!!
+  2020-06-04 08:10:51 DEBUG devpinoyLogger:119 - test execution completed !!!
+  

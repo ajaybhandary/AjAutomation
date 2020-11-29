@@ -1,0 +1,25 @@
+19:37:43,334 DEBUG devpinoyLogger:54 - config file loaded !!!
+  19:37:43,336 DEBUG devpinoyLogger:68 - OR file loaded !!!
+  19:37:47,406 DEBUG devpinoyLogger:81 - Chrome launched !!!
+  19:37:49,760 DEBUG devpinoyLogger:89 - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+  19:37:52,001 DEBUG devpinoyLogger:16 -  addCustomer testcase entry !!!
+  19:37:55,437 DEBUG devpinoyLogger:21 -  addCustomer testcase 1 !!!
+  19:37:55,536 DEBUG devpinoyLogger:25 -  addCustomer testcase 2 !!!
+  19:37:55,626 DEBUG devpinoyLogger:28 -  addCustomer testcase 3 !!!
+  19:37:55,717 DEBUG devpinoyLogger:31 -  addCustomer testcase 4 !!!
+  19:37:55,785 DEBUG devpinoyLogger:34 -  addCustomer Successful !!!
+  19:37:56,513 DEBUG devpinoyLogger:119 - test execution completed !!!
+  19:46:53,038 DEBUG devpinoyLogger:54 - config file loaded !!!
+  19:46:53,040 DEBUG devpinoyLogger:68 - OR file loaded !!!
+  19:46:57,106 DEBUG devpinoyLogger:81 - Chrome launched !!!
+  19:46:59,993 DEBUG devpinoyLogger:89 - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+  19:47:02,363 DEBUG devpinoyLogger:13 - Inside Login Test
+  19:47:05,883 DEBUG devpinoyLogger:17 - Login successfully executed
+  19:47:05,919 DEBUG devpinoyLogger:16 -  addCustomer testcase entry !!!
+  19:47:08,970 DEBUG devpinoyLogger:21 -  addCustomer testcase 1 !!!
+  19:47:09,158 DEBUG devpinoyLogger:25 -  addCustomer testcase 2 !!!
+  19:47:09,267 DEBUG devpinoyLogger:28 -  addCustomer testcase 3 !!!
+  19:47:09,358 DEBUG devpinoyLogger:31 -  addCustomer testcase 4 !!!
+  19:47:09,433 DEBUG devpinoyLogger:34 -  addCustomer Successful !!!
+  19:47:10,111 DEBUG devpinoyLogger:119 - test execution completed !!!
+  

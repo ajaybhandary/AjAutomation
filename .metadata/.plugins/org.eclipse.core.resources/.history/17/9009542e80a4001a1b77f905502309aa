@@ -1,0 +1,28 @@
+package com.w2a.testcase;
+
+import org.apache.poi.hssf.record.formula.functions.Rows;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.w2a.base.TestBase;
+
+public class AddCustomerTest extends TestBase {
+	
+	@Test(dataProvider="getData") 
+	public void addCustomer(String firstName,String lastName,String postCode)
+	{
+		String sheetName = null;
+		int rows = excel.getRowCount(sheetName);
+		int cols = excel.getColumnCount(sheetName);
+				
+		
+	}
+	
+	@DataProvider
+	public Object[][] getData(){
+		
+		
+		
+	}
+
+}

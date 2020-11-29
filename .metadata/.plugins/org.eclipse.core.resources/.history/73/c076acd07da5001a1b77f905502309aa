@@ -1,0 +1,59 @@
+package com.w2a.testcase;
+
+
+import org.openqa.selenium.By;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.w2a.base.TestBase;
+
+public class AddCustomerTest extends TestBase {
+	
+	@Test(dataProvider="getData") 
+	public void addCustomer(String firstName,String lastName,String postCode) throws InterruptedException
+	{
+		log.debug(" addCustomer testcase entry !!!");
+//		driver.findElement(By.cssSelector(OR.getProperty("addCustbtn"))).click();
+		driver.findElement(By.cssSelector("button[ng-click='addCust()']")).click();
+		
+		Thread.sleep(3000);
+		log.debug(" addCustomer testcase 1 !!!");
+		//driver.findElement(By.cssSelector(OR.getProperty("firstname"))).sendKeys(firstName);
+		driver.findElement(By.cssSelector("input[ng-model='fName']")).sendKeys(firstName);
+		
+		log.debug(" addCustomer testcase 2 !!!");
+		//driver.findElement(By.cssSelector(OR.getProperty("lastname"))).sendKeys(lastName);
+		driver.findElement(By.cssSelector(" input[ng-model='lName']")).sendKeys(lastName);
+		log.debug(" addCustomer testcase 3 !!!");
+		//driver.findElement(By.cssSelector(OR.getProperty("postcode"))).sendKeys(postCode);
+		driver.findElement(By.cssSelector("input[ng-model='postCd']")).sendKeys(postCode);
+		log.debug(" addCustomer testcase 4 !!!");
+		//driver.findElement(By.cssSelector(OR.getProperty("addbtn"))).click();
+		driver.findElement(By.cssSelector(" button[type ='submit']")).click();
+		log.debug(" addCustomer Successful !!!");
+	}
+	
+	@DataProvider
+	public Object[][] getData(){
+		String sheetName = "AddCustomerTest";
+		int rows = excel.getRowCount(sheetName);
+		int cols = excel.getColumnCount(sheetName);
+		
+		Object[][] data = new Object[rows-1][cols];
+		
+		for(int rowNum = 2; rowNum <= rows; rowNum++) {//2
+			
+			for (int colNum = 0; colNum < cols; colNum++)
+			{
+				//data[0][0]
+				data[rowNum - 2][colNum] = excel.getCellData(sheetName, colNum, rowNum);
+			}
+		}
+		
+		return data;
+		
+		
+		
+	}
+
+}

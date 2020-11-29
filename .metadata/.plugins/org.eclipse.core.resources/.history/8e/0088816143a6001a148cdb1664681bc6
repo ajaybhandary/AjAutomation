@@ -1,0 +1,10 @@
+#Bank Manager Login test
+bmlBtn =div > div:last-child > .btn.btn-primary.btn-lg
+
+#Add customer test
+#addCustBtn =button[ng-click='addCust()']
+addCustBtn =btn btn-lg tab btn-primary
+firstname =input[ng-model='fName']
+lastname =input[ng-model='lName']
+postcode =input[ng-model='postCd']
+addbtn =button[type ='submit']
